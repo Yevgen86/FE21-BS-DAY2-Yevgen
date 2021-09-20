@@ -1,0 +1,77 @@
+.btn-bg {
+    background-color: #7ACCC4;
+    font-weight: bold;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.navbar {
+    background-color: #7ACCC4!important;
+}
+
+
+.carousel {
+    
+    .carousel-item {
+    
+        img {
+            max-height: 500px;
+            object-fit: cover;
+        }
+    }
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.full-width-card {
+
+    margin: 2em 0;
+    .card-img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+}
+
+.small-card-img {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 320px) {
+    .carousel-item {
+        img {
+            height: 140px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-item {
+        img {
+            height: 170px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-item {
+        img {
+            height: 200px;
+        }
+    }
+    .img-settings-md {
+        max-height: 190px;
+    }
+    .small-card-img {
+        // max-height: 150px;
+        object-fit: cover;
+    }
+}
