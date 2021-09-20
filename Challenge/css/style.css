@@ -1,16 +1,16 @@
 .btn-bg {
-  background-color: #7ACCC4;
+  background-color: #7accc4;
   font-weight: bold;
-  color: #FFF;
-  border-color: #FFF;
+  color: #fff;
+  border-color: #fff;
 }
 
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .navbar {
-  background-color: #7ACCC4 !important;
+  background-color: #7accc4 !important;
 }
 
 .carousel .carousel-item img {
@@ -50,6 +50,9 @@ body {
 @media only screen and (max-width: 480px) {
   .carousel-item img {
     height: 170px;
+  }
+  header img {
+    width: 45%;
   }
 }
 

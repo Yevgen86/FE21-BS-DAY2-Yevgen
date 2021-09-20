@@ -1,77 +1,77 @@
 .btn-bg {
-    background-color: #7ACCC4;
-    font-weight: bold;
-    color: #FFF;
-    border-color: #FFF;
+  background-color: #7accc4;
+  font-weight: bold;
+  color: #fff;
+  border-color: #fff;
 }
 
 body {
-    background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .navbar {
-    background-color: #7ACCC4!important;
+  background-color: #7accc4 !important;
 }
 
-
 .carousel {
-    
-    .carousel-item {
-    
-        img {
-            max-height: 500px;
-            object-fit: cover;
-        }
+  .carousel-item {
+    img {
+      max-height: 500px;
+      object-fit: cover;
     }
+  }
 }
 
 .card-img-top {
-    max-height: 300px;
-    object-fit: cover;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 .full-width-card {
-
-    margin: 2em 0;
-    .card-img {
-        max-height: 300px;
-        object-fit: cover;
-    }
-
+  margin: 2em 0;
+  .card-img {
+    max-height: 300px;
+    object-fit: cover;
+  }
 }
 
 .small-card-img {
-    max-height: 150px;
-    object-fit: cover;
+  max-height: 150px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 320px) {
-    .carousel-item {
-        img {
-            height: 140px;
-        }
+  .carousel-item {
+    img {
+      height: 140px;
     }
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .carousel-item {
-        img {
-            height: 170px;
-        }
+  .carousel-item {
+    img {
+      height: 170px;
     }
+  }
+  header {
+    img {
+      width: 45%;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .carousel-item {
-        img {
-            height: 200px;
-        }
+  .carousel-item {
+    img {
+      height: 200px;
     }
-    .img-settings-md {
-        max-height: 190px;
-    }
-    .small-card-img {
-        // max-height: 150px;
-        object-fit: cover;
-    }
+  }
+  .img-settings-md {
+    max-height: 190px;
+  }
+  .small-card-img {
+    // max-height: 150px;
+    object-fit: cover;
+  }
 }
